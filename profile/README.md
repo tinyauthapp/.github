@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="Tinyauth" title="Tinyauth" width="96" src="assets/logo-rounded.png">
+    <img alt="Tinyauth" title="Tinyauth" width="96" src="https://github.com/steveiliop56/tinyauth/blob/main/assets/logo-rounded.png?raw=true">
     <h1>Tinyauth</h1>
     <p>The tiniest authentication and authorization server you have ever seen.</p>
 </div>
