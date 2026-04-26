@@ -1,14 +1,14 @@
 <div align="center">
-    <img alt="Tinyauth" title="Tinyauth" width="96" src="https://github.com/steveiliop56/tinyauth/blob/main/assets/logo-rounded.png?raw=true">
+    <img alt="Tinyauth" title="Tinyauth" width="96" src="https://github.com/tinyauthapp/tinyauth/blob/main/assets/logo-rounded.png?raw=true">
     <h1>Tinyauth</h1>
     <p>The tiniest authentication and authorization server you have ever seen.</p>
 </div>
 
 <div align="center">
-    <img alt="License" src="https://img.shields.io/github/license/steveiliop56/tinyauth">
-    <img alt="Release" src="https://img.shields.io/github/v/release/steveiliop56/tinyauth">
-    <img alt="Issues" src="https://img.shields.io/github/issues/steveiliop56/tinyauth">
-    <img alt="Tinyauth CI" src="https://github.com/steveiliop56/tinyauth/actions/workflows/ci.yml/badge.svg">
+    <img alt="License" src="https://img.shields.io/github/license/tinyauthapp/tinyauth">
+    <img alt="Release" src="https://img.shields.io/github/v/release/tinyauthapp/tinyauth">
+    <img alt="Issues" src="https://img.shields.io/github/issues/tinyauthapp/tinyauth">
+    <img alt="Tinyauth CI" src="https://github.com/tinyauthapp/tinyauth/actions/workflows/ci.yml/badge.svg">
     <a title="Crowdin" target="_blank" href="https://crowdin.com/project/tinyauth"><img src="https://badges.crowdin.net/tinyauth/localized.svg"></a>
 </div>
 
@@ -16,7 +16,7 @@
 
 Tinyauth is the simplest and tiniest authentication and authorization server you have ever seen. It is designed to both work as an authentication middleware for your apps, offering support for OAuth, LDAP and access-controls, and as a standalone authentication server. It supports all the popular proxies like Traefik, Nginx and Caddy.
 
-![Screenshot](https://github.com/steveiliop56/tinyauth/blob/main/assets/screenshot.png?raw=true)
+![Screenshot](https://github.com/tinyauthapp/tinyauth/blob/main/assets/screenshot.png?raw=true)
 
 ## Demo
 
@@ -26,7 +26,7 @@ If you are still not sure if Tinyauth suits your needs you can try out the [demo
 
 You can find documentation and guides on all of the available configuration of Tinyauth in the [website](https://tinyauth.app).
 
-If you wish to contribute to the documentation head over to the [repository](https://github.com/steveiliop56/tinyauth-docs).
+If you wish to contribute to the documentation head over to the [repository](https://github.com/tinyauthapp/docs).
 
 ## Discord
 
