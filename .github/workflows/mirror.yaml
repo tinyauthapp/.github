@@ -20,6 +20,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: ${{ matrix.repository }}
+          fetch-depth: 0
 
       - name: Mirror to Codeberg
         uses: yesolutions/mirror-action@662fce0eced8996f64d7fa264d76cddd84827f33
