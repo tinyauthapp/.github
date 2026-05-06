@@ -1,0 +1,29 @@
+name: Mirror Repositories to Codeberg
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repository:
+          - tinyauthapp/tinyauth
+          - tinyauthapp/docs
+          - tinyauthapp/analytics
+          - tinyauthapp/paerser
+          - tinyauthapp/helm
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ matrix.repository }}
+
+      - name: Mirror to Codeberg
+        uses: yesolutions/mirror-action@662fce0eced8996f64d7fa264d76cddd84827f33
+        with:
+          REMOTE: "https://codeberg.org/${{ matrix.repository }}"
+          GIT_USERNAME: steveiliop56
+          GIT_PASSWORD: ${{ secrets.CODEBERG_TOKEN }}
